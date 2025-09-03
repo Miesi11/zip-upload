@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom wood background pattern */
+body {
+  @apply bg-primary-light text-brown-900;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(247, 243, 233, 1) 0px,
+    rgba(247, 243, 233, 1) 8px,
+    rgba(240, 235, 220, 1) 8px,
+    rgba(240, 235, 220, 1) 16px
+  );
+}
+
+/* Handwriting font face placeholder. To use, place caveat.woff2 in /public/fonts and ensure self-hosting */
+@font-face {
+  font-family: 'Caveat';
+  src: url('/fonts/caveat.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+a {
+  @apply text-accent underline underline-offset-2 hover:no-underline;
+}
+
+/* Skip link styling */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  padding: 0.5rem 1rem;
+  background-color: #927240;
+  color: white;
+  z-index: 100;
+  transition: top 0.3s ease;
+}
+.skip-link:focus {
+  top: 0;
+}

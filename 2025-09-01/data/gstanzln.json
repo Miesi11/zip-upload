@@ -1,0 +1,63 @@
+[
+  {
+    "title": "A lustiges Gstanzl",
+    "slug": "lustiges-gstanzl",
+    "region": "Salzburg",
+    "mood": "lustig",
+    "tags": ["Humor", "Tradition"],
+    "lyrics": [
+      "Es war einmal ein Bauer smart, der spielte auf der Ziach so hart.",
+      "Die Leute sangen, lachten laut, so klingt ein Gstanzl wunderbar und traut."
+    ],
+    "dialect": "Pinzgauerisch",
+    "source": "Volksmund"
+  },
+  {
+    "title": "Spöttisches Gstanzl",
+    "slug": "spotisches-gstanzl",
+    "region": "Steiermark",
+    "mood": "spöttisch",
+    "tags": ["Satire"],
+    "lyrics": [
+      "Da Jaga auf da Alm, der is so schlau und bald so bsoffn wie sei Oachkatl."
+    ],
+    "dialect": "Steirisch",
+    "source": "Alte Sammlung"
+  },
+  {
+    "title": "Trauriges Gstanzl",
+    "slug": "trauriges-gstanzl",
+    "region": "Tirol",
+    "mood": "traurig",
+    "tags": ["Melancholie"],
+    "lyrics": [
+      "I schau vom Berg ins Tal hinab, mei Herz is schwer, mei Freud is knapp."
+    ],
+    "dialect": "Tirolerisch",
+    "source": "Hoflied"
+  },
+  {
+    "title": "Weise Gstanzl",
+    "slug": "weise-gstanzl",
+    "region": "Oberösterreich",
+    "mood": "weise",
+    "tags": ["Weisheit", "Tradition"],
+    "lyrics": [
+      "A Gstanzl glernt is a Gstanzl gsong, im Herzen bleibts lang."
+    ],
+    "dialect": "Innviertlerisch",
+    "source": "Mundartdichter"
+  },
+  {
+    "title": "Freches Gstanzl",
+    "slug": "freches-gstanzl",
+    "region": "Niederösterreich",
+    "mood": "frech",
+    "tags": ["Humor", "Frechheit"],
+    "lyrics": [
+      "De Bauersbua und a Stadlkatl, de beiden tanzen an Walzer, hölt!"
+    ],
+    "dialect": "Mostviertlerisch",
+    "source": "Nachbarschaft"
+  }
+]
