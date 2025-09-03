@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 /* Custom wood background pattern */
-body {
-  @apply bg-primary-light text-brown-900;
-  background-image: repeating-linear-gradient(
-    0deg,
-    rgba(247, 243, 233, 1) 0px,
-    rgba(247, 243, 233, 1) 8px,
-    rgba(240, 235, 220, 1) 8px,
-    rgba(240, 235, 220, 1) 16px
-  );
+@layer base {
+  body {
+    @apply bg-primary-light text-brown-900;
+    background-image: repeating-linear-gradient(
+      0deg,
+      rgba(247, 243, 233, 1) 0px,
+      rgba(247, 243, 233, 1) 8px,
+      rgba(240, 235, 220, 1) 8px,
+      rgba(240, 235, 220, 1) 16px
+    );
+  }
 }
 
 /* Handwriting font face placeholder. To use, place caveat.woff2 in /public/fonts and ensure self-hosting */
@@ -23,8 +25,10 @@ body {
   font-display: swap;
 }
 
-a {
-  @apply text-accent underline underline-offset-2 hover:no-underline;
+@layer components {
+  a {
+    @apply text-accent underline underline-offset-2 hover:no-underline;
+  }
 }
 
 /* Skip link styling */
