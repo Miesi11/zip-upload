@@ -2,33 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Global base styles */
 @layer base {
   html,
   body {
-@apply bg-primary-light text-brown-900 antialiased;
-    /* simple repeating wood grain background */
-    background-image: repeating-linear-gradient(
-      0deg,
-      rgba(247, 243, 233, 1) 0px,
-      rgba(247, 243, 233, 1) 8px,
-      rgba(240, 235, 220, 1) 8px,
-      rgba(240, 235, 220, 1) 16px
-    );
+    @apply bg-white text-gray-900;
   }
-}
-
-/* Custom font face */
-@font-face {
-  font-family: 'Caveat';
-  src: url('/fonts/caveat.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
 }
 
 @layer components {
   a {
-    @apply text-accent underline underline-offset-2 hover:no-underline;
+    @apply underline underline-offset-2 hover:no-underline;
   }
 }
