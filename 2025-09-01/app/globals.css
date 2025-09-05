@@ -3,14 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-  html,
-  body {
+  html, body {
     @apply bg-white text-gray-900;
   }
 }
 
 @layer components {
   a {
-    @apply underline underline-offset-2 hover:no-underline;
+    @apply underline underline-offset-2;
+  }
+  a:hover {
+    @apply no-underline;
   }
 }
