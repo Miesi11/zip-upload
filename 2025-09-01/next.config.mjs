@@ -3,14 +3,13 @@
  */
 const nextConfig = {
   output: 'export',
-    basePath: '/zip-upload',
-  
+  basePath: '/zip-upload',
+  assetPrefix: '/zip-upload/',
   experimental: {
     appDir: true,
   },
   reactStrictMode: true,
-    images: { unoptimized: true },
-  
+  images: { unoptimized: true },
 };
 
 export default nextConfig;
