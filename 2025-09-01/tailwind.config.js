@@ -23,9 +23,7 @@ module.exports = {
     },
   },
       fontFamily: {
-        handwriting: ['"Caveat"', 'ui-sans-serif', 'system-ui'],
-      },
-    },
-  },
+        
+      handwriting: ["Caveat", "ui-sans-serif", "system-ui"],
   plugins: [],
 };
