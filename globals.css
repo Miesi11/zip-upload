@@ -1,0 +1,18 @@
+/*
+ * Global styles for your Next.js application.
+ *
+ * This file imports the core Tailwind layers. It must be imported once
+ * from your root layout (`app/layout.tsx`) so that Tailwind's styles are
+ * available throughout your app. Do not nest selectors here unless you
+ * have configured a nesting plugin in `postcss.config.js`.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Example customisation: set full height for html and body */
+html,
+body {
+  height: 100%;
+}
